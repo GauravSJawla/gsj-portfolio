@@ -21,7 +21,7 @@ import styles from 'assets/jss/material-kit-react/components/headerLinksStyle.js
 
 const useStyles = makeStyles(styles);
 
-export default function HeaderLinks(props) {
+export default function HeaderLinks() {
   const classes = useStyles();
   return (
     <List className={classes.list}>

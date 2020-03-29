@@ -16,6 +16,7 @@ import Parallax from 'components/Parallax/Parallax.js';
 import Footer from 'components/Footer/Footer.js';
 
 import styles from 'assets/jss/material-kit-react/views/landingPage.js';
+import styles2 from 'assets/jss/material-kit-react/components/headerLinksStyle.js';
 
 // Sections for this page
 import ProductSection from './Sections/ProductSection.js';
@@ -23,9 +24,11 @@ import TeamSection from './Sections/TeamSection.js';
 import WorkSection from './Sections/WorkSection.js';
 
 const useStyles = makeStyles(styles);
+const useStyles2 = makeStyles(styles2);
 
 export default function LandingPage() {
   const classes = useStyles();
+  const classes2 = useStyles2();
   return (
     <div>
       <Parallax filter image={require('assets/img/landing-background.jpg')}>
@@ -36,11 +39,12 @@ export default function LandingPage() {
                 <h1 className={classes.title}>Gaurav Singh Jawla</h1>
               </div>
               <h4>
-                Hello! I'm a full-stack Web Developer living in Iowa City. If
-                you wanna know more about me, click right away.
+                Hi there! I'm a CS graduate student at the University of Iowa. I
+                am aspiring to be a full-stack Web Developer. If you wanna know
+                more about me, click right away.
               </h4>
               <Button
-                className={classes.navLink}
+                className={classes2.navLink}
                 color='transparent'
                 size='lg'
                 component={Link}
