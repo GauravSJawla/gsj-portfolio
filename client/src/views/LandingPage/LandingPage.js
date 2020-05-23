@@ -19,9 +19,9 @@ import styles from 'assets/jss/material-kit-react/views/landingPage.js';
 import styles2 from 'assets/jss/material-kit-react/components/headerLinksStyle.js';
 
 // Sections for this page
-import ProductSection from './Sections/ProductSection.js';
-import TeamSection from './Sections/TeamSection.js';
-import WorkSection from './Sections/WorkSection.js';
+import ProductSection from './Sections/ProjectSection.js';
+import TeamSection from './Sections/WorkSection.js';
+import WorkSection from './Sections/ContactSection.js';
 
 const useStyles = makeStyles(styles);
 const useStyles2 = makeStyles(styles2);

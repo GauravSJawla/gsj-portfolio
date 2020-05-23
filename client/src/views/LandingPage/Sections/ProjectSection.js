@@ -15,13 +15,13 @@ import styles from 'assets/jss/material-kit-react/views/landingPageSections/prod
 
 const useStyles = makeStyles(styles);
 
-export default function ProductSection() {
+export default function ProjectSection() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
       <GridContainer justify='center'>
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>My recent work</h2>
+          <h2 className={classes.title}>My Project Work</h2>
           <h5 className={classes.description}>
             Here are a few class projects I've worked on recently. Want to see
             more? Email me.
